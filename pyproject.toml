@@ -1,0 +1,17 @@
+[project]
+name = "airflow-mysql-project"
+version = "0.1.0"
+description = "Airflow project with MySQL database queries"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "apache-airflow==3.1.1",
+    "apache-airflow-providers-git==0.0.9",
+    "apache-airflow-providers-mysql>=3.4.0",
+    "pymysql>=1.1.0",
+    "cryptography>=41.0.0",
+    "pandas>=2.0.0",
+    "sqlalchemy>=1.4.0,<2.0.0",
+    "structlog==25.4.0",
+]
