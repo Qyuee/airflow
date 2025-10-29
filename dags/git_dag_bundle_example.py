@@ -17,7 +17,7 @@ def print_git_info():
     print("This DAG is synced from GitHub!")
     print("=" * 50)
 
-    print("version3 - 테스트")
+    print("version4 - 테스트")
 
 
 with DAG(
