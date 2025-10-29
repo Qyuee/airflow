@@ -33,12 +33,16 @@ def dag_versioning_example():
     def task_5():
         print("Hello! tast_5")
 
+    def task_6():
+        print("Hello! tast_6")
+
     chain(
         task_1(),
         task_2(),
         task_3(),
         task_4(),
         task_5(),
+        task_6(),
     )
 
 dag_versioning_example()
