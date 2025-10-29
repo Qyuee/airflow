@@ -33,6 +33,7 @@ def dag_versioning_example():
     def task_5():
         print("Hello! tast_5")
 
+    @task
     def task_6():
         print("Hello! tast_6")
 
